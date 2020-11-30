@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  width: 150px;
+  height: 150px;
+
+  border: 5px #fff solid;
+  border-radius: 50%;
+  background-color: #ccc;
+  box-shadow: 0 0 0 5px #000;
+  /* box-shadow can be used to add extra border */
+}
